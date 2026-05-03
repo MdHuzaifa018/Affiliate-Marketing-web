@@ -24,7 +24,7 @@ const FAQS = [
   },
   {
     q: "Yeh sirf affiliate marketing ke liye hai?",
-    a: "Is system ka primary focus IDP Affiliate Marketing hai, lekin yeh strategies kisi bhi high-ticket business ke liye kaam karti hain.",
+    a: "Is system ka primary focus Affiliate Marketing hai, lekin yeh strategies kisi bhi high-ticket business ke liye kaam karti hain.",
   },
 ];
 

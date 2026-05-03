@@ -8,7 +8,7 @@ const TESTIMONIALS = [
     earned: "Made ₹8 Lakhs",
     avatar: "SA",
     color: "#c8ff6e",
-    text: '"I was struggling to balance my medical practice with IDP business. Aafrid\'s AI system completely changed everything—I now work just 2 hours daily on my business and make more than my medical practice!"',
+    text: '"I was struggling to balance my medical practice with business. Aafrid\'s AI system completely changed everything—I now work just 2 hours daily on my business and make more than my medical practice!"',
   },
   {
     name: "Satya R.",

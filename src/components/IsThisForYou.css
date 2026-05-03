@@ -75,12 +75,20 @@
 
 .itfy-card__image {
   width: 100%;
-  height: 140px;
+  height: 238px;
   overflow: hidden;
+  padding: 10px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
+.itfy-card__image img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
 
 .itfy-card__image--success {
   background: linear-gradient(135deg, #0d2020, #0a1a30);

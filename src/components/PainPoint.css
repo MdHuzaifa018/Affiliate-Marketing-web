@@ -16,12 +16,13 @@
 }
 
 .pain__image-placeholder {
-  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  /* background: linear-gradient(135deg, #1a1a2e, #16213e); */
+  background: #c8ff6e;
   border-radius: 20px;
   width: 100%;
   max-width: 580px;
   margin: 0 auto;
-  padding: 3rem 2rem;
+  /* padding: 3rem 2rem; */
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -30,6 +31,7 @@
   align-items: center;
   gap: 1rem;
 }
+
 
 .pain__zero-leads {
   background: rgba(0, 0, 0, 0.4);

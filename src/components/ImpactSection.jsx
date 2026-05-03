@@ -55,7 +55,7 @@ const ImpactSection = ({ onRegisterClick }) => {
       <div className="impact__container">
         <div className="impact__label reveal">THE IMPACT</div>
         <h2 className="impact__title reveal">
-          <span className="impact--accent">1300+ IDP Affiliates</span>
+          <span className="impact--accent">1300+ Affiliates</span>
           <br />
           Already Transformed Their Business
         </h2>

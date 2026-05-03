@@ -38,7 +38,7 @@ const Hero = ({ onRegisterClick }) => {
       <div className="hero__container">
         {/* Badge */}
         <div className="hero__badge reveal">
-          ONLY FOR EXPERIENCED IDP AFFILIATE MARKETERS
+          ONLY FOR AFFILIATE MARKETERS & BUSINESS OWNERS
         </div>
 
         {/* Headline */}
@@ -57,7 +57,7 @@ const Hero = ({ onRegisterClick }) => {
           {/* Video */}
           <div className="hero__video-wrapper">
             <div className="video-label">
-              <span className="live-dot"></span> LIVE · IDP Leads Secret Revealed
+              <span className="live-dot"></span> LIVE · Leads Secret Revealed
             </div>
             <iframe
               src={`${CONFIG.VIDEO_URL}?rel=0&modestbranding=1`}

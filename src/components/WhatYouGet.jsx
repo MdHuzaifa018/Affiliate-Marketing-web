@@ -30,7 +30,7 @@ const FEATURES = [
   {
     icon: "📈",
     title: "1L/Monthly Affiliate Roadmap",
-    desc: "Proven roadmap to generate consistent sales in your IDP business",
+    desc: "Proven roadmap to generate consistent sales in your business",
   },
 ];
 

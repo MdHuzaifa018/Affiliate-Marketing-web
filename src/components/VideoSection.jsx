@@ -104,7 +104,7 @@ const VideoSection = ({ onRegisterClick }) => {
         <div className="vs-header">
           <p className="vs-eyebrow reveal">THE IMPACT</p>
           <h2 id="video-title" className="vs-title reveal">
-            1300+ IDP Affiliates <br />
+            1300+ Affiliates <br />
             <span className="vs-title--white">Already Transformed Their Business</span>
           </h2>
           <p className="vs-subtitle reveal">

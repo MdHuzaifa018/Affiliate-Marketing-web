@@ -23,9 +23,9 @@ const PainPoint = ({ onRegisterClick }) => {
               <span className="zero-leads-text">– 0 Leads</span>
               <div className="zero-leads-chart"></div>
             </div> */}
-            <div className="pain__man-icon">
+            {/* <div className="pain__man-icon"> */}
               <img src="https://go.visionads.in/wp-content/uploads/2026/03/ChatGPT-Image-Mar-24-2026-05_06_50-PM-1024x683.webp" alt="" />
-            </div>
+            {/* </div> */}
           </div>
         </div>
 
