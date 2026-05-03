@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import PainPoint from "./components/PainPoint";
 import ImpactSection from "./components/ImpactSection";
+import VideoSection from "./components/VideoSection";
 import WhatYouGet from "./components/WhatYouGet";
 import CanYouManage from "./components/CanYouManage";
 import IsThisForYou from "./components/IsThisForYou";
@@ -29,7 +30,10 @@ function App() {
         {/* Section 2: Pain Point — "You're Working Harder Than Ever" */}
         <PainPoint onRegisterClick={openModal} />
 
-        {/* Section 3: Impact — "1300+ IDP Affiliates Already Transformed" */}
+        {/* Section 3: Video Section — Real Results */}
+        <VideoSection onRegisterClick={openModal} />
+
+        {/* Section 4: Impact — "1300+ IDP Affiliates Already Transformed" */}
         <ImpactSection onRegisterClick={openModal} />
 
         {/* Section 4: What You Get — "90 min AI Masterclass" */}
