@@ -1,0 +1,210 @@
+.itfy-section {
+  background: #111827;
+  padding: 5rem 1.5rem;
+  position: relative;
+}
+
+.itfy-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(200, 255, 110, 0.15), transparent);
+}
+
+.itfy__container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.itfy__title {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.25;
+  margin: 0 0 2rem;
+}
+
+.itfy--accent {
+  color: #c8ff6e;
+}
+
+/* Cards */
+.itfy__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.itfy-card {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid;
+}
+
+.itfy-card--green {
+  background: rgba(200, 255, 110, 0.03);
+  border-color: rgba(200, 255, 110, 0.2);
+}
+
+.itfy-card--red {
+  background: rgba(255, 80, 80, 0.03);
+  border-color: rgba(255, 80, 80, 0.2);
+}
+
+.itfy-card__header {
+  padding: 0.9rem 1.25rem;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #c8ff6e;
+  background: rgba(200, 255, 110, 0.07);
+  border-bottom: 1px solid rgba(200, 255, 110, 0.1);
+}
+
+.itfy-card__header--red {
+  color: #ff6060;
+  background: rgba(255, 80, 80, 0.07);
+  border-bottom-color: rgba(255, 80, 80, 0.1);
+}
+
+.itfy-card__image {
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itfy-card__image--success {
+  background: linear-gradient(135deg, #0d2020, #0a1a30);
+}
+
+.itfy-card__image--fail {
+  background: linear-gradient(135deg, #2a0a0a, #1a0a0a);
+}
+
+.image-mock {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.image-mock--success {
+  color: #c8ff6e;
+}
+
+.image-mock--fail {
+  color: #ff6060;
+}
+
+/* Lists */
+.itfy-list {
+  list-style: none;
+  margin: 0;
+  padding: 1rem 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.itfy-list__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  font-size: 0.87rem;
+  line-height: 1.5;
+}
+
+.itfy-list__item--green { color: rgba(255, 255, 255, 0.75); }
+.itfy-list__item--red { color: rgba(255, 255, 255, 0.65); }
+
+.itfy-icon {
+  font-size: 0.9rem;
+  font-weight: 700;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.itfy-icon--green {
+  background: rgba(200, 255, 110, 0.15);
+  color: #c8ff6e;
+  border: 1px solid rgba(200, 255, 110, 0.3);
+}
+
+.itfy-icon--red {
+  background: rgba(255, 80, 80, 0.15);
+  color: #ff6060;
+  border: 1px solid rgba(255, 80, 80, 0.3);
+}
+
+/* CTA */
+.itfy__cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-primary-large {
+  background: #c8ff6e;
+  color: #0d1117;
+  font-size: 1.05rem;
+  font-weight: 800;
+  padding: 1rem 2.75rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  transition: all 0.3s ease;
+  animation: ctaGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes ctaGlow {
+  0%, 100% { box-shadow: 0 0 30px rgba(200, 255, 110, 0.35); }
+  50% { box-shadow: 0 0 50px rgba(200, 255, 110, 0.65); }
+}
+
+.btn-primary-large:hover {
+  transform: translateY(-3px);
+  background: #d4ff80;
+}
+
+.spots-text {
+  color: #ff5555;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal:nth-child(1) { transition-delay: 0.05s; }
+.reveal:nth-child(2) { transition-delay: 0.2s; }
+.reveal:nth-child(3) { transition-delay: 0.35s; }
+
+@media (max-width: 640px) {
+  .itfy__cards { grid-template-columns: 1fr; }
+  .btn-primary-large { width: 100%; }
+}
