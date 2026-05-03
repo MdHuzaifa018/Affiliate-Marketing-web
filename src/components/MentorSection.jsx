@@ -24,7 +24,7 @@ const MentorSection = () => {
           {/* Photo placeholder */}
           <div className="mentor__photo">
             <div className="mentor__photo-placeholder">
-              <img src="public/img/adnan sir.jpg" alt="mentor-img" />
+              <img src="/img/adnan sir.jpg" alt="mentor-img" />
               <span className="mentor__photo-name">Mr. Adnan Qureshi</span>
             </div>
           </div>
