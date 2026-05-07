@@ -8,7 +8,7 @@ import { CONFIG } from "./config";
  */
 export const sendEmailJS = async (formData) => {
   const templateParams = {
-    from_name: formData.fullName,
+    full_name: formData.fullName,
     phone: formData.phone,
     email: formData.email,
     experience: formData.experience,

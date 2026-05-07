@@ -14,6 +14,8 @@ import FAQ from "./components/FAQ";
 import FinalCTA from "./components/FinalCTA";
 import Modal from "./components/Modal";
 import LiveNotification from "./components/LiveNotification";
+import Footer from "./components/Footer";
+
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -66,7 +68,7 @@ function App() {
 
       {/* Sticky bottom bar with offer countdown */}
       <Navbar onRegisterClick={openModal} />
-
+      <Footer />
       {/* Lead capture modal */}
       <Modal isOpen={isModalOpen} onClose={closeModal} />
 

@@ -4,35 +4,35 @@ import "./VideoSection.css";
 // ─── Add your 6 YouTube video IDs here ───────────────────────────────────────
 const VIDEOS = [
   {
-    id: "eqeafeHp4nk",
+    id: "Fch6FqQr8V8",
     title: "Kejal Earned ₹1 Lakh in Less Than 30 Days",
     badge: "₹1 LAKH IN 30 DAYS",
   },
   {
-    id: "eqeafeHp4nk",
+    id: "1y2W_flFQSA",
     title: "One Strategy Took Her from ₹30K to ₹1.7 Lakh",
     badge: "₹30K → ₹1.7 LAKH",
   },
   {
-    id: "eqeafeHp4nk",
+    id: "97gSCTrGUs8",
     title: "₹1.5 Lakh in Just 7 Days",
     badge: "₹1.5 LAKH IN 7 DAYS",
   },
   {
-    id: "eqeafeHp4nk",
+    id: "lpFcFYb5X_A",
     title: "Dr. Sazia Earned ₹8 Lakhs in 6 Months",
     badge: "₹8 LAKHS IN 6 MONTHS",
   },
-  {
-    id: "eqeafeHp4nk",
-    title: "Satyamarti Verma Made ₹1.25 Lakh in 30 Days",
-    badge: "₹1.25 LAKH IN 30 DAYS",
-  },
-  {
-    id: "eqeafeHp4nk",
-    title: "1.5 Lakh Revenue in Just 30 Days – Jai Mohan",
-    badge: "1.5 LAKH IN 30 DAYS",
-  },
+  // {
+  //   id: "eqeafeHp4nk",
+  //   title: "Satyamarti Verma Made ₹1.25 Lakh in 30 Days",
+  //   badge: "₹1.25 LAKH IN 30 DAYS",
+  // },
+  // {
+  //   id: "eqeafeHp4nk",
+  //   title: "1.5 Lakh Revenue in Just 30 Days – Jai Mohan",
+  //   badge: "1.5 LAKH IN 30 DAYS",
+  // },
 ];
 // ─────────────────────────────────────────────────────────────────────────────
 
