@@ -68,7 +68,7 @@ function App() {
 
       {/* Sticky bottom bar with offer countdown */}
       <Navbar onRegisterClick={openModal} />
-      <Footer />
+      <Footer onRegisterClick={openModal} />
       {/* Lead capture modal */}
       <Modal isOpen={isModalOpen} onClose={closeModal} />
 

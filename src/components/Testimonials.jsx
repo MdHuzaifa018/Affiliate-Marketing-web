@@ -8,7 +8,7 @@ const TESTIMONIALS = [
     earned: "Made ₹8 Lakhs",
     avatar: "SA",
     color: "#c8ff6e",
-    text: '"I was struggling to balance my medical practice with business. Aafrid\'s AI system completely changed everything—I now work just 2 hours daily on my business and make more than my medical practice!"',
+    text: '"I was struggling to balance my medical practice with business. Adnan\'s AI system completely changed everything—I now work just 2 hours daily on my business and make more than my medical practice!"',
   },
   {
     name: "Satya R.",
@@ -16,7 +16,7 @@ const TESTIMONIALS = [
     earned: "Made ₹6 Lakhs",
     avatar: "SR",
     color: "#00ccff",
-    text: '"I had ALL these problems before joining Aafrid\'s masterclass. My husband used to joke that I was running a \'charity business.\' Now I\'m the primary earner in our household!"',
+    text: '"I had ALL these problems before joining Adnan\'s masterclass. My husband used to joke that I was running a \'charity business.\' Now I\'m the primary earner in our household!"',
   },
   {
     name: "Kejal",
@@ -24,7 +24,7 @@ const TESTIMONIALS = [
     earned: "Made ₹1.5 Lakhs",
     avatar: "KJ",
     color: "#ffd700",
-    text: '"As a housewife, I never thought I could do this business successfully. The AI system Aafrid taught completely transformed my approach. The automated funnel saves me 3-4 hours daily, and now I\'m consistently making sales while managing my household duties!"',
+    text: '"As a housewife, I never thought I could do this business successfully. The AI system Adnan taught completely transformed my approach. The automated funnel saves me 3-4 hours daily, and now I\'m consistently making sales while managing my household duties!"',
   },
 ];
 

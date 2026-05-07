@@ -20,7 +20,7 @@ export const CONFIG = {
   EMAILJS_PUBLIC_KEY: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,        // e.g. "abc123XYZ"
 
   // Brand info
-  BRAND_NAME: "Vision Ads",
+  BRAND_NAME: "Adnan Ads",
   MASTERCLASS_NAME: "AI Lead Ads Masterclass",
   MENTOR_NAME: "Mr. Aafrid Chippa",
   TAGLINE: "Generate 50-100 Quality Leads & Sell HTC Packages Daily",

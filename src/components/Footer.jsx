@@ -18,7 +18,7 @@ const Footer = ({ onRegisterClick }) => {
           <button
             id="footer-register-btn"
             className="footer__cta"
-            onClick={onRegisterClick}
+            onClick={onRegisterClick }
             aria-label="Register for free masterclass"
           >
             🚀 Join Free →
